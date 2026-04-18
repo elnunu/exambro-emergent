@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#42A5F5</color>
+    <color name="accent">#FF6F00</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#2E7D32</color>
+    <color name="success_light">#4CAF50</color>
+    <color name="warning">#F57C00</color>
+    <color name="warning_light">#FFB74D</color>
+    <color name="error">#C62828</color>
+    <color name="error_light">#EF5350</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_error">#FFFFFF</color>
+    
+    <!-- Divider -->
+    <color name="divider">#BDBDBD</color>
+    
+    <!-- Security Status Colors -->
+    <color name="security_pass">#2E7D32</color>
+    <color name="security_fail">#C62828</color>
+    <color name="security_warning">#F57C00</color>
+    <color name="security_checking">#1565C0</color>
+    
+    <!-- Kiosk Mode Colors -->
+    <color name="kiosk_active">#C62828</color>
+    <color name="kiosk_background">#212121</color>
+    
+    <!-- Splash Screen -->
+    <color name="splash_background">#1565C0</color>
+</resources>

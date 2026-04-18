@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Secure Exam Browser</string>
+    <string name="app_name_short">SEB</string>
+    
+    <!-- Device Admin -->
+    <string name="device_admin_label">Secure Exam Browser Admin</string>
+    <string name="device_admin_description">Required for kiosk mode during exams. This allows the app to lock the device to exam-only mode, preventing access to other apps and features during the exam session.</string>
+    
+    <!-- Security Check Screen -->
+    <string name="security_check_title">Security Check</string>
+    <string name="security_checking">Checking device security…</string>
+    <string name="security_passed">All security checks passed</string>
+    <string name="security_failed">Security check failed</string>
+    <string name="security_root_detected">Rooted device detected</string>
+    <string name="security_dev_options">Developer options enabled</string>
+    <string name="security_usb_debug">USB debugging enabled</string>
+    <string name="security_vpn_detected">VPN connection detected</string>
+    <string name="security_mock_location">Mock location detected</string>
+    <string name="security_screen_mirror">Screen mirroring detected</string>
+    <string name="security_external_display">External display connected</string>
+    <string name="security_emulator">Emulator detected</string>
+    
+    <!-- Config Screen -->
+    <string name="config_title">Exam Configuration</string>
+    <string name="config_moodle_url">Moodle Server URL</string>
+    <string name="config_moodle_url_hint">https://your-moodle.edu/</string>
+    <string name="config_exit_password">Exit Password (for invigilator)</string>
+    <string name="config_exit_password_hint">Secure password</string>
+    <string name="config_confirm_password">Confirm Exit Password</string>
+    <string name="config_exam_token">Exam Token (optional)</string>
+    <string name="config_exam_token_hint">Token from teacher</string>
+    <string name="config_save">Save Configuration</string>
+    <string name="config_start_exam">Start Exam Mode</string>
+    <string name="config_import_seb">Import .seb Config</string>
+    <string name="config_clear">Clear All Settings</string>
+    <string name="config_teacher_mode">Teacher/Admin Mode</string>
+    <string name="config_student_mode">Student Mode</string>
+    
+    <!-- Exam Screen -->
+    <string name="exam_title">Secure Exam</string>
+    <string name="exam_loading">Loading exam…</string>
+    <string name="exam_error">Failed to load exam page</string>
+    <string name="exam_exit_title">Exit Exam</string>
+    <string name="exam_exit_message">Enter the invigilator password to exit the exam:</string>
+    <string name="exam_exit_password_hint">Exit password</string>
+    <string name="exam_exit_wrong_password">Incorrect password</string>
+    <string name="exam_exit_confirm">Exit</string>
+    <string name="exam_exit_cancel">Cancel</string>
+    <string name="exam_submitted">Exam submitted successfully</string>
+    <string name="exam_session_ended">Exam session ended</string>
+    
+    <!-- Violations -->
+    <string name="violation_detected">Violation Detected</string>
+    <string name="violation_screenshot">Screenshot attempt blocked</string>
+    <string name="violation_app_switch">App switch attempt blocked</string>
+    <string name="violation_navigation">Navigation blocked</string>
+    <string name="violation_external_url">External URL blocked</string>
+    <string name="violation_logged">This violation has been logged</string>
+    
+    <!-- Device Admin Setup -->
+    <string name="admin_setup_title">Device Admin Required</string>
+    <string name="admin_setup_message">Secure Exam Browser requires device administrator privileges to enable kiosk mode during exams. This ensures exam integrity by preventing access to other apps.</string>
+    <string name="admin_setup_enable">Enable Device Admin</string>
+    <string name="admin_setup_skip">Skip (Limited Mode)</string>
+    
+    <!-- Kiosk Mode -->
+    <string name="kiosk_active">Exam Mode Active</string>
+    <string name="kiosk_locked">Device is locked to exam mode</string>
+    <string name="kiosk_exit_blocked">Cannot exit during exam</string>
+    
+    <!-- Errors -->
+    <string name="error_generic">An error occurred</string>
+    <string name="error_network">Network error. Check your connection.</string>
+    <string name="error_invalid_url">Invalid Moodle URL</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_password_weak">Password must be at least 6 characters</string>
+    <string name="error_url_required">Moodle URL is required</string>
+    <string name="error_password_required">Exit password is required</string>
+    <string name="error_ssl_certificate">SSL certificate error</string>
+    <string name="error_domain_blocked">This domain is not allowed</string>
+    
+    <!-- Buttons -->
+    <string name="btn_continue">Continue</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_settings">Settings</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Exam Session</string>
+    <string name="notification_channel_desc">Notifications for active exam session</string>
+    <string name="notification_exam_active">Exam session is active</string>
+    <string name="notification_tap_to_return">Tap to return to exam</string>
+</resources>

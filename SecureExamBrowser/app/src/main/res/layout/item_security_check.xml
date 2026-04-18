@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/spacing_md">
+
+    <!-- Status Icon -->
+    <ImageView
+        android:id="@+id/ivStatus"
+        android:layout_width="@dimen/security_icon_size"
+        android:layout_height="@dimen/security_icon_size"
+        android:src="@drawable/ic_check_circle"
+        tools:ignore="ContentDescription" />
+
+    <!-- Check Name -->
+    <TextView
+        android:id="@+id/tvCheckName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_md"
+        android:layout_weight="1"
+        android:textSize="@dimen/text_size_md"
+        android:textColor="@color/text_primary"
+        tools:text="Root Detection" />
+
+    <!-- Progress/Status Indicator -->
+    <ProgressBar
+        android:id="@+id/progressCheck"
+        android:layout_width="@dimen/security_icon_size"
+        android:layout_height="@dimen/security_icon_size"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleSmall" />
+
+</LinearLayout>

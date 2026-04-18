@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <!-- Required for kiosk mode lock task -->
+        <force-lock />
+        <!-- Wipe device on too many failed password attempts (optional) -->
+        <wipe-data />
+        <!-- Reset password capability -->
+        <reset-password />
+        <!-- Watch login attempts -->
+        <watch-login />
+        <!-- Disable cameras during exam -->
+        <disable-camera />
+        <!-- Disable keyguard features -->
+        <disable-keyguard-features />
+    </uses-policies>
+</device-admin>
